@@ -36,6 +36,6 @@ public class WarmupQuestion3 {
 
     public static void main(String[] args) {
         int[] tasks = {5,1,1,3};
-        minTimeRequired(tasks, 2);
+        System.out.println(minTimeRequired(tasks, 2));
     }
 }

@@ -29,7 +29,7 @@ public class WarmupQuestion1 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {5,7,1,2,4,9,3,10,12,6,8,12,12,15,13,2,1,1,1,14,4,5};
+        int[] arr = {5,7,1,2,4,9,3,10,12,6,8,12,15,13,2,1,1,1,14,4,5};
         int[] res = topKLargestElements(arr, 5);
         Arrays.stream(res).forEach(i-> System.out.print(i +" "));
     }
